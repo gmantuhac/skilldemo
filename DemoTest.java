@@ -3,6 +3,6 @@ import org.junit.*;
 public class DemoTest {
     @Test
     public void modTest() {
-        assertEquals(1, Demo.mod(2));
+        assertEquals(0, Demo.mod(2));
     }
 }
